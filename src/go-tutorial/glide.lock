@@ -1,0 +1,45 @@
+hash: 7fb462857071d29aec09c2374bb0fafebda0f07b9ff7cbf1b8d34ca92ca59835
+updated: 2016-10-30T08:34:27.343627749+09:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 24c63f56522a87ec5339cc3567883f1039378fdb
+- name: github.com/go-sql-driver/mysql
+  version: a732e14c62dde3285440047bba97581bc472ae18
+- name: github.com/go-xorm/builder
+  version: cd42e8337f3031e737c3f415b6354793cf30f1c9
+- name: github.com/go-xorm/core
+  version: 5bf745d7d163f4380e6c2bba8c4afa60534dd087
+- name: github.com/go-xorm/xorm
+  version: 6e4cb7136aa1e9d9cf41bcfa35d36281eee9bcb1
+- name: github.com/labstack/echo
+  version: 04e6901d05b58ddbae579a6252a3d1bb3f334adc
+  subpackages:
+  - context
+  - engine
+  - engine/standard
+  - log
+  - middleware
+- name: github.com/labstack/gommon
+  version: 2d272df536d051e737aea353b86c979d6e88bce0
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: 6c903ff4aa50920ca86087a280590b36b3152b9c
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/mattn/go-sqlite3
+  version: 86681de00adef4f8040947b7d35f97000fc5a230
+- name: github.com/valyala/fasttemplate
+  version: 3b874956e03f1636d171bda64b130f9135f42cff
+- name: golang.org/x/net
+  version: 3fe3024eef808ba2798cc1855690f49e2b860573
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: c200b10b5d5e122be351b67af224adc6128af5bf
+  subpackages:
+  - unix
+testImports: []
