@@ -1,5 +1,5 @@
 hash: 7fb462857071d29aec09c2374bb0fafebda0f07b9ff7cbf1b8d34ca92ca59835
-updated: 2016-10-30T08:34:27.343627749+09:00
+updated: 2016-11-04T15:43:54.49328513+09:00
 imports:
 - name: github.com/dgrijalva/jwt-go
   version: 24c63f56522a87ec5339cc3567883f1039378fdb
@@ -11,6 +11,12 @@ imports:
   version: 5bf745d7d163f4380e6c2bba8c4afa60534dd087
 - name: github.com/go-xorm/xorm
   version: 6e4cb7136aa1e9d9cf41bcfa35d36281eee9bcb1
+- name: github.com/jinzhu/gorm
+  version: d5d3e3a67b25ebfc763bf35572381715d283d84e
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
 - name: github.com/labstack/echo
   version: 04e6901d05b58ddbae579a6252a3d1bb3f334adc
   subpackages:
