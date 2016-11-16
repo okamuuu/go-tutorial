@@ -3,6 +3,7 @@ package gorm
 import (
 	"fmt"
 	"testing"
+	"time"
 
 	mygorm "go-tutorial/gorm"
 )
@@ -37,4 +38,13 @@ func TestDeleteProduct(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
+}
+
+func TestFindDiary(t *testing.T) {
+	ymd := time.Date(2014, time.December, 31, 12, 13, 24, 0, time.UTC)
+	diary, err := mygorm.FindDiary(ymd)
+	if err != nil {
+		t.Error(err)
+	}
+	fmt.Println(diary)
 }
